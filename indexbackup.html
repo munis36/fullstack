@@ -93,7 +93,7 @@
                             <div class="col-sm-5 col-md-4">
                                 <div class="btn-group" data-toggle="buttons">
                                     <label class="btn btn-success active">
-                                        <input type="radio" name="options" id="option1" autocomplete="off" checked>Non-smoking
+                                        <input type="radio" name="options" id="option1" autocomplete="off" checked>Non-Smoking
                                     </label>
                                     <label class="btn btn-danger">
                                         <input type="radio" name="options" id="option2" autocomplete="off">Smoking
@@ -235,14 +235,6 @@
                         <span class="carousel-control-next-icon"></span>
                     </a>
 
-                    <div class="btn-group" id="carouselButtons">
-                        <button class="btn btn-danger btn-sm" id="carousel-pause">
-                            <span class="fa fa-pause"></span>
-                        </button>
-                        <button class="btn btn-danger btn-sm" id="carousel-play">
-                            <span class="fa fa-play"></span>
-                        </button>
-                    </div>
                 </div>
             </div>
         </div>
@@ -301,84 +293,6 @@
             </div>
         </div>
 
-       <!-- <div class="row row-content align-items-center">
-            <div class="col-sm-12 col-xs-12 col-md-8 offset-md-2">
-                <div class="card" id="reserveTable">
-                    <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
-                    <div class="card-block">
-                        <form>
-
-                            <div class="form-group row">
-                                <label class="col-sm-2 col-md-2 col-form-label form-check-label">Number of Guests</label>
-
-                                <div class="col-sm col-md-10">
-                                    <div class="form-check-inline mr-1">
-                                        <input type="radio" class="" name="guestsCount" id="radio1" value="1"/>
-                                        <label for="radio1">1</label>
-                                    </div>
-
-                                    <div class="form-check-inline mr-1">
-                                        <input type="radio" class="" name="guestsCount" id="radio2" value="2"/>
-                                        <label for="radio2">2</label>
-                                    </div>
-
-                                    <div class="form-check-inline mr-1">
-                                        <input type="radio" class="" name="guestsCount" id="radio3" value="3"/>
-                                        <label for="radio3">3</label>
-                                    </div>
-
-                                    <div class="form-check-inline mr-1">
-                                        <input type="radio" class="" name="guestsCount" id="radio4" value="4"/>
-                                        <label for="radio4">4</label>
-                                    </div>
-
-                                    <div class="form-check-inline mr-1">
-                                        <input type="radio" class="" name="guestsCount" id="radio5" value="5"/>
-                                        <label for="radio5">5</label>
-                                    </div>
-
-                                    <div class="form-check-inline">
-                                        <input type="radio" class="" name="guestsCount" id="radio6" value="6"/>
-                                        <label for="radio6">6</label>
-                                    </div>
-
-                                </div>
-                            </div>
-
-
-                            <div class="form-group row">
-                                <label class="col-md-2 col-sm-2 col-form-label">Date and Time</label>
-                                <div class="col-sm-5 col-md-4">
-                                    <div class="input-group">
-                                        <div class="input-group-addon">
-                                            <i class="fa fa-calendar"></i>
-                                        </div>
-                                        <input type="input" class="form-control" id="date1" name="date1" placeholder="Date"/>
-                                    </div>
-                                </div>
-                                <div class="col-sm-5 col-md-4">
-                                    <div class="input-group">
-                                        <div class="input-group-addon">
-                                            <i class="fa fa-clock-o"></i>
-                                        </div>
-                                        <input type="input" class="form-control" id="time1" name="time1" placeholder="Time"/>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="form-group row">
-                                <div class="offset-md-2 col-md-10">
-                                    <button class="btn btn-primary" type="submit">Reserve</button>
-                                </div>
-                            </div>
-
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-       -->
     </div>
 
     <footer class="footer">
@@ -430,24 +344,6 @@
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-    <script>
-       /* $(function(){
-            $('[data-toggle=tooltip]').tooltip();
-            $('');
-        });*/
-       $(document).ready(function(){
-          $("#mycarousel").carousel({interval:2000});
-
-          $("#carousel-pause").on("click",function(evnt){
-              $("#mycarousel").carousel('pause');
-          });
-
-          $("#carousel-play").on("click",function(evnt){
-              $("#mycarousel").carousel('cycle');
-          });
-
-       });
-    </script>
 </body>
 
 </html>
