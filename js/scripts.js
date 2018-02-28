@@ -29,4 +29,23 @@ $(document).ready(function(){
         }
     });
 
+    $("#loginBtn").on("click", function(evnt){
+        evnt.stopPropagation();
+        openLoginModal(evnt);
+    });
+
+    $("#reserveBtn").on("click", function(evnt){
+        evnt.stopPropagation();
+        openReserveModal(evnt);
+    });
+
 });
+
+
+function openLoginModal(evnt){
+    $("#loginModal").modal();
+}
+
+function openReserveModal(evnt){
+    $("#reservationModal").modal();
+}

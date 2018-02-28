@@ -59,3 +59,15 @@ body {
   right: 0px;
   position: absolute;
   bottom: 0px; }
+
+#loginModal .modal-header, #reservationModal .modal-header {
+  background: #512DA8;
+  color: floralwhite; }
+  #loginModal .modal-header .close, #reservationModal .modal-header .close {
+    color: floralwhite; }
+
+#loginModal .modal-body, #reservationModal .modal-body {
+  background: #D1C4E9; }
+
+#loginModal .modal-footer, #reservationModal .modal-footer {
+  background: #9575CD; }
